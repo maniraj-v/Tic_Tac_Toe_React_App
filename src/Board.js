@@ -6,7 +6,7 @@ export default function Board(props) {
     <section className="board" onClick={processResult}>
       {
         moves.map((move, index) =>{
-          return <Square key={index} index={index} />
+          return <Square key={index} index={index} value={move}/>
         })
       }
     </section>

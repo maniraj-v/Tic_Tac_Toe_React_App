@@ -24,7 +24,6 @@ export default function App() {
    if(e.target.classList.contains('square') && !winner){
      const index = Number(e.target.dataset.index);
      if(!moves[index]){
-        e.target.textContent = currentPlayer;
         const tempArr = [...moves];
         tempArr[index]=currentPlayer
         setMoves(tempArr);
