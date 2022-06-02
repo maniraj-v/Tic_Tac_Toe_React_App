@@ -23,6 +23,18 @@
 }
 
 .square:hover{
-  background-color: rgb(250, 245, 207);
+  background-color: rgba(205, 206, 206, 0.5);
 }
 
+.reset-btn{
+  margin-top: 1rem;
+  text-transform: capitalize;
+  font-size: 1rem;
+  padding: 0.3rem 1rem;
+  background-color: rgba(205, 206, 206, 0.5);
+  cursor: pointer;
+}
+
+.reset-btn:hover{
+  background-color: rgba(205, 206, 206, 1);
+}
